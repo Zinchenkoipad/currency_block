@@ -2,16 +2,6 @@ import React from 'react';
 import { Table, Col, Row, Container } from 'react-bootstrap';
 
 class ListItem extends React.Component{
-  constructor(){
-    super()
-    this.state={
-      completed: ''
-    }
-    this.setChecked = this.setChecked.bind(this)
-  }
-  setChecked(){
-    this.setState(state=>({completed: !state.completed}))
-  }
 	render(){
     return(
   		<tr>
